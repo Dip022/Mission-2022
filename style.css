@@ -6,8 +6,12 @@ h1 {
   font-size: 50px;
   font-weight: 800;
 }
+p {
+  color: #3e3e3e;
+  font-weight: 500;
+}
 .main-container {
-  margin: 0 6%;
+  margin: 5% 6% 7% 6%;
   display: flex;
 }
 .two-column {
@@ -17,7 +21,7 @@ h1 {
   width: 80%;
 }
 .stay-column {
-  margin: 120px 80px 0 0;
+  margin: 0 80px 0 0;
 }
 #main-color {
   color: #ff5959;
@@ -35,6 +39,8 @@ a {
   font-weight: 700;
   padding: 10px 35px;
   border-radius: 5px;
+  margin-top: 13px;
+  display: inline-block;
 }
 .Scroll {
   margin-top: 40px;
@@ -63,9 +69,6 @@ a {
 .goals-color {
   background-color: #fff4d6;
 }
-.space-top {
-  margin-top: 5%;
-}
 .develop-img-area {
   width: 40%;
 }
@@ -78,6 +81,25 @@ a {
 .develop-limits {
   margin-left: 3%;
 }
+.developer-portfolio p {
+  margin-right: 10%;
+}
 .global-community {
   margin-right: 7%;
+}
+.footer-area {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  margin-top: 6%;
+}
+.footer-area h1 {
+  font-size: 35px;
+  color: #ffffff;
+  margin: 0;
+}
+.footer-area p {
+  color: #d9dbe1;
+  margin: 0;
+  font-weight: 200;
 }
