@@ -6,7 +6,7 @@ h1 {
   font-size: 50px;
   font-weight: 800;
 }
-.main-section {
+.main-container {
   margin: 0 6%;
   display: flex;
 }
@@ -19,8 +19,7 @@ h1 {
 .stay-column {
   margin: 120px 80px 0 0;
 }
-.stay-column span {
-  display: block;
+#main-color {
   color: #ff5959;
 }
 .stay-focused {
@@ -39,4 +38,46 @@ a {
 }
 .Scroll {
   margin-top: 40px;
+}
+.main-mission {
+  text-align: center;
+}
+.main-mission span {
+  color: #ff5959;
+}
+.three-column {
+  width: 32%;
+  margin: 15px;
+  padding: 30px 20px 50px 25px;
+  border-radius: 15px;
+}
+.three-column img {
+  width: 25%;
+}
+.mission-color {
+  background-color: #edf5f6;
+}
+.vission-color {
+  background-color: #ffeeee;
+}
+.goals-color {
+  background-color: #fff4d6;
+}
+.space-top {
+  margin-top: 5%;
+}
+.develop-img-area {
+  width: 40%;
+}
+.develop-img-area img {
+  width: 90%;
+}
+.develop-text-area {
+  width: 60%;
+}
+.develop-limits {
+  margin-left: 3%;
+}
+.global-community {
+  margin-right: 7%;
 }
